@@ -1,0 +1,219 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 6,
+    "passes": 0,
+    "pending": 0,
+    "failures": 6,
+    "start": "2024-10-21T21:08:09.440Z",
+    "end": "2024-10-21T21:08:09.449Z",
+    "duration": 9,
+    "testsRegistered": 6,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "7e6c5c30-8e59-4876-a2ee-541cf84c6096",
+      "title": "",
+      "fullFile": "C:\\Users\\faria\\Documents\\S206\\Lista de exercicios S206\\cypress\\e2e\\Lista1.cy.js",
+      "file": "\\cypress\\e2e\\Lista1.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "db841765-99ff-49a5-807b-eabb028f54be",
+          "title": "Testes site Pokedle",
+          "fullFile": "C:\\Users\\faria\\Documents\\S206\\Lista de exercicios S206\\cypress\\e2e\\Lista1.cy.js",
+          "file": "\\cypress\\e2e\\Lista1.cy.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Testes de acesso ao botão de jogo classico",
+              "fullTitle": "Testes site Pokedle Testes de acesso ao botão de jogo classico",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://pokedle.net/')\ncy.get(':nth-child(1) > .button-description').click()",
+              "err": {
+                "message": "ReferenceError: cy is not defined",
+                "estack": "ReferenceError: cy is not defined\n    at Context.<anonymous> (cypress\\e2e\\Lista1.cy.js:7:5)\n    at process.processImmediate (node:internal/timers:478:21)",
+                "diff": null
+              },
+              "uuid": "5b48fb54-951e-4155-9450-dcf98cda6a60",
+              "parentUUID": "db841765-99ff-49a5-807b-eabb028f54be",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Testes de jogo classico",
+              "fullTitle": "Testes site Pokedle Testes de jogo classico",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://pokedle.net/')\ncy.get(':nth-child(1) > .button-description').click()\ncy.get('.IZ-select__input > input').type('Pikachu')\ncy.get('.guess-button > img').click()",
+              "err": {
+                "message": "ReferenceError: cy is not defined",
+                "estack": "ReferenceError: cy is not defined\n    at Context.<anonymous> (cypress\\e2e\\Lista1.cy.js:16:5)\n    at process.processImmediate (node:internal/timers:478:21)",
+                "diff": null
+              },
+              "uuid": "0abb25b7-eeab-45ae-872d-beecab535e9b",
+              "parentUUID": "db841765-99ff-49a5-807b-eabb028f54be",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Teste modo daltônico",
+              "fullTitle": "Testes site Pokedle Teste modo daltônico",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://pokedle.net/')\ncy.get(':nth-child(1) > .button-description').click()\ncy.get('.IZ-select__input > input').type('Pikachu')\ncy.get('.guess-button > img').click()\ncy.get('.img').click()\ncy.get(':nth-child(2) > :nth-child(2) > .vue-js-switch > .v-switch-core').click()\ncy.get('.modal-close').click()",
+              "err": {
+                "message": "ReferenceError: cy is not defined",
+                "estack": "ReferenceError: cy is not defined\n    at Context.<anonymous> (cypress\\e2e\\Lista1.cy.js:25:5)\n    at process.processImmediate (node:internal/timers:478:21)",
+                "diff": null
+              },
+              "uuid": "457fe5c6-c02c-4551-9c06-56530e34e6f6",
+              "parentUUID": "db841765-99ff-49a5-807b-eabb028f54be",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Teste patch notes",
+              "fullTitle": "Testes site Pokedle Teste patch notes",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://pokedle.net/')\ncy.get(':nth-child(1) > .button-description').click()\ncy.get('.notes-button > .top-button-img').click()",
+              "err": {
+                "message": "ReferenceError: cy is not defined",
+                "estack": "ReferenceError: cy is not defined\n    at Context.<anonymous> (cypress\\e2e\\Lista1.cy.js:36:5)\n    at process.processImmediate (node:internal/timers:478:21)",
+                "diff": null
+              },
+              "uuid": "9a6d00b3-4eed-4505-aa63-cc0401710818",
+              "parentUUID": "db841765-99ff-49a5-807b-eabb028f54be",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Teste com pokemon acima da primeira geração, deve dar erro",
+              "fullTitle": "Testes site Pokedle Teste com pokemon acima da primeira geração, deve dar erro",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://pokedle.net/')\ncy.get(':nth-child(1) > .button-description').click()\ncy.get('.IZ-select__input > input').type('Lucario')\ncy.get('.guess-button > img').click()\ncy.get('[style=\"display: flex;\"] > img').click()",
+              "err": {
+                "message": "ReferenceError: cy is not defined",
+                "estack": "ReferenceError: cy is not defined\n    at Context.<anonymous> (cypress\\e2e\\Lista1.cy.js:45:5)\n    at process.processImmediate (node:internal/timers:478:21)",
+                "diff": null
+              },
+              "uuid": "875e8561-5e35-43c4-b8aa-00cad238b62d",
+              "parentUUID": "db841765-99ff-49a5-807b-eabb028f54be",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Testes até ganhar o jogo classico",
+              "fullTitle": "Testes site Pokedle Testes até ganhar o jogo classico",
+              "timedOut": false,
+              "duration": 1,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://pokedle.net/')\ncy.get(':nth-child(1) > .button-description').click()\ncy.get('.IZ-select__input > input').type('Bulbasaur')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Ivysaur')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Venusaur')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Charmander')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Charmeleon')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Charizard')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Squirtle')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Wartortle')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Blastoise')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Caterpie')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Metapod')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Butterfree')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Weedle')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Kakuna')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Beedrill')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Pidgey')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Pidgeotto')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Pidgeot')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Rattata')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Raticate')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Spearow')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Fearow')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Ekans')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Arbok')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Pikachu')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Raichu')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Sandshrew')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Sandslash')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Nidoran♀')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Nidorina')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Nidoqueen')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Nidoran♂')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Nidorino')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Nidoking')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Clefairy')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Clefable')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Vulpix')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Ninetales')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Jigglypuff')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Wigglytuff')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Zubat')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Golbat')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Oddish')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Gloom')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Vileplume')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Paras')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Parasect')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Venonat')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Venomoth')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Diglett')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Dugtrio')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Meowth')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Persian')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Psyduck')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Golduck')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Mankey')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Primeape')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Growlithe')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Arcanine')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Poliwag')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Poliwhirl')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Poliwrath')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Abra')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Kadabra')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Alakazam')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Machop')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Machoke')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Machamp')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Bellsprout')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Weepinbell')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Victreebel')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Tentacool')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Tentacruel')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Geodude')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Graveler')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Golem')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Ponyta')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Rapidash')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Slowpoke')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Slowbro')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Magnemite')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Magneton')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Farfetch\\'d')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Doduo')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Dodrio')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Seel')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Dewgong')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Grimer')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Muk')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Shellder')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Cloyster')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Gastly')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Haunter')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Gengar')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Onix')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Drowzee')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Hypno')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Krabby')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Kingler')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Voltorb')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Electrode')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Exeggcute')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Exeggutor')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Cubone')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Marowak')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Hitmonlee')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Hitmonchan')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Lickitung')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Koffing')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Weezing')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Rhyhorn')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Rhydon')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Chansey')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Tangela')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Kangaskhan')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Horsea')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Seadra')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Goldeen')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Seaking')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Staryu')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Starmie')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Mr. Mime')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Scyther')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Jynx')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Electabuzz')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Magmar')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Pinsir')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Tauros')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Magikarp')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Gyarados')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Lapras')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Ditto')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Eevee')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Vaporeon')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Jolteon')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Flareon')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Porygon')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Omanyte')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Omastar')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Kabuto')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Kabutops')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Aerodactyl')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Snorlax')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Articuno')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Zapdos')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Moltres')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Dratini')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Dragonair')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Dragonite')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Mewtwo')\ncy.get('.guess-button > img').click()\ncy.get('.IZ-select__input > input').type('Mew')\ncy.get('.guess-button > img').click()\ncy.get('.background-end > :nth-child(2)').should('contain_text', \"Você acertou:\")",
+              "err": {
+                "message": "ReferenceError: cy is not defined",
+                "estack": "ReferenceError: cy is not defined\n    at Context.<anonymous> (cypress\\e2e\\Lista1.cy.js:54:5)\n    at process.processImmediate (node:internal/timers:478:21)",
+                "diff": null
+              },
+              "uuid": "9f82e4f2-a171-450b-8679-5952a4785850",
+              "parentUUID": "db841765-99ff-49a5-807b-eabb028f54be",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "5b48fb54-951e-4155-9450-dcf98cda6a60",
+            "0abb25b7-eeab-45ae-872d-beecab535e9b",
+            "457fe5c6-c02c-4551-9c06-56530e34e6f6",
+            "9a6d00b3-4eed-4505-aa63-cc0401710818",
+            "875e8561-5e35-43c4-b8aa-00cad238b62d",
+            "9f82e4f2-a171-450b-8679-5952a4785850"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.7.3"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
