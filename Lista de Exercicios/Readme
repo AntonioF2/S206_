@@ -4,3 +4,13 @@ disponiveis até finalizar o jogo.
 
 
 Para rodar basta, abrir um novo projeto no cypress com a List1.cy.js dentro da pasta e2e e rodar no browser da sua escolha.
+
+Para exportar o relatório de testes basta certificar-se que possui o mochawesome instalado e rodar os seguintes comandos:
+
+npm install --save-dev
+npx mocha Lista1.cy.js --reporter mochawesome
+
+
+Caso possua algum problema com politica de execução no terminal use:
+
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
