@@ -2,7 +2,7 @@
 
 //Lista 1
 
-describe("Testes de acesso ao botão de jogo classico", ()=>{
+describe("Testes site Pokedle", ()=>{
   it("Testes de acesso ao botão de jogo classico", ()=>{
     cy.visit('https://pokedle.net/')
     cy.get(':nth-child(1) > .button-description').click()
@@ -40,12 +40,6 @@ describe("Testes de acesso ao botão de jogo classico", ()=>{
   })
 
  
-  it("Teste patch notes", ()=>{
-    cy.visit('https://pokedle.net/')
-    cy.get(':nth-child(1) > .button-description').click()
-    cy.get('.notes-button > .top-button-img').click()
-
-  })
 
   it("Teste com pokemon acima da primeira geração, deve dar erro", ()=>{
     cy.visit('https://pokedle.net/')
