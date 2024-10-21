@@ -1,3 +1,6 @@
 A lista de exercicios de teste consiste em 6 testes, abrir o modo de jogo classico, testar  se o modo de jogo classico está funcionando, testar se o modo daltônico da página está funcionando, 
 testar se as ntoas de atualização estão acessíveis, um teste que deve gerar erro utilizando um pokemon não disponibilizado no banco de dados do site e um teste final com o nome de todos os pokemons
 disponiveis até finalizar o jogo.
+
+
+Para rodar basta, abrir um novo projeto no cypress com a List1.cy.js dentro da pasta e2e e rodar no browser da sua escolha.
