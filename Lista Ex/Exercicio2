@@ -7,4 +7,4 @@ R: Automatizados
 R: Não pois, quando se fala de teste end to end se envolve toda uma cadeia de testes que se complementam no final, não foi o caso desses testes
 
 3. O que se deve fazer para que os testes desenvolvidos funcionem em modo regressão?
- [E necessário estruturá-los de maneira reutilizável, automatizada e configurável, permitindo sua execução repetida com diferentes cenários e dados.
+É necessário estruturá-los de maneira reutilizável, automatizada e configurável, permitindo sua execução repetida com diferentes cenários e dados.
