@@ -45,7 +45,7 @@
 							"mode": "raw",
 							"raw": ""
 						},
-						"url": "{{URL}}usuarios"
+						"url": "https://serverest.dev/usuarios"
 					},
 					"response": []
 				},
@@ -68,7 +68,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{URL}}/usuarios/cuH618LuKkPhDlJU"
+						"url": "https://serverest.dev/usuarios/cuH618LuKkPhDlJU"
 					},
 					"response": []
 				},
@@ -91,7 +91,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{URL}}usuarios/40TIsLQr2j0w69Oz"
+						"url": "https://serverest.dev/usuarios/40TIsLQr2j0w69Oz"
 					},
 					"response": []
 				}
@@ -128,7 +128,7 @@
 								}
 							}
 						},
-						"url": "{{URL}}usuarios"
+						"url": "https://serverest.dev/usuarios"
 					},
 					"response": []
 				}
@@ -156,7 +156,7 @@
 					"request": {
 						"method": "DELETE",
 						"header": [],
-						"url": "{{URL}}/usuarios/1vpU7PPwaX0oQl2t"
+						"url": "https://serverest.dev/usuarios/1vpU7PPwaX0oQl2t"
 					},
 					"response": []
 				}
@@ -193,7 +193,7 @@
 								}
 							}
 						},
-						"url": "{{URL}}usuarios/40TIsLQr2j0w69Oy"
+						"url": "https://serverest.dev/usuarios/40TIsLQr2j0w69Oy"
 					},
 					"response": []
 				},
@@ -225,7 +225,7 @@
 								}
 							}
 						},
-						"url": "{{URL}}usuarios/40TIsLQr2j0w69Ozzasas"
+						"url": "https://serverest.dev/usuarios/40TIsLQr2j0w69Ozzasas"
 					},
 					"response": []
 				}
