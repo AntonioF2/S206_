@@ -1,0 +1,13 @@
+Passo a Passo
+
+1º Download das dependencias (Necessário Node e Java instalados)
+
+npm install -g protractor
+
+webdriver-manager update
+
+2º Rodar servidor local no Selenium
+
+webdriver-manager start
+
+3º Necessário ter 2 arquivos .js (Testes.js e config.js)
